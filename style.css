@@ -1,0 +1,81 @@
+/**/
+#gas_smile {
+    background-color: #ffc03e;
+    border-left: 4px dotted #eb403b;
+    border-radius: 0 2px 2px 0;
+    font-size: 14px;
+    line-height: normal;
+    padding: 8px;
+    position: fixed;
+    top: 150px;
+    z-index: 2;
+}
+#gas_smile.gas_open {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    left: -115px;
+    transition: left 0.3s ease-in-out;
+}
+#gas_smile.gas_open:hover {
+    background-color: #ffd04e;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+#gas_smile .rcl_preloader .fa {
+    left: auto;
+    right: 6px;
+}
+#gas_smile.gas_result:not(.gas_open) {
+    left: 0;
+}
+#gas_smile span {
+    color: #4b67ad;
+    padding: 0 8px 0 0;
+}
+#gas_smile > .fa {
+    color: #eb403b;
+    font-size: 24px;
+}
+#gas_smile_motiv {
+    background-color: #ffd2a6;
+    border-left: 5px solid #ff9e40;
+    border-radius: 0 2px 2px 0;
+    color: #000;
+    font-size: 14px;
+    left: -300px;
+    line-height: normal;
+    max-width: 300px;
+    opacity: 0;
+    padding: 5px;
+    position: fixed;
+    top: 195px;
+    transition: all 0.3s ease-in-out 0.15s;
+    z-index: 2;
+}
+#gas_smile:hover + #gas_smile_motiv {
+    left: 0;
+    opacity: 1;
+    transition: all 0.3s ease-in-out 0.15s;
+}
+#gas_smile_motiv > div:first-child {
+    margin-bottom: 8px;
+}
+.gas_count {
+    margin: 5px 0 0;
+    text-align: center;
+}
+.gas_nmbr {
+    color: #227fb0;
+    font-size: 30px;
+    font-weight: bold;
+}
+#gas_smile.gas_result:not(.gas_open)::after {
+    bottom: 3px;
+    color: #ffdd5b;
+    content: "\f118";
+    font-family: fontawesome;
+    font-size: 31px;
+    left: 3px;
+    position: absolute;
+}

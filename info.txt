@@ -1,0 +1,7 @@
+Name: Give a Smile;
+Version: 1.0;
+Support Core: 15.9.7;
+Description: Просто подари улыбку;
+Author: Владимир Дружаев (Otshelnik-Fm);
+Author URI: http://across-ocean.otshelnik-fm.ru/;
+Add-on URI: https://codeseller.ru/products/give-a-smile/;
