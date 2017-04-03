@@ -2,7 +2,7 @@
 function gasPush(e){
     if(jQuery(e).hasClass('gas_result')) return false; // если уже один раз отработало
     jQuery(e).addClass('gas_result'); // ставим маркер что нажали один раз
-    rcl_preloader_show('#gas_smile .fa',25); // покажем спиннер (иконка лоадера)
+    rcl_preloader_show(jQuery('#gas_smile'),25); // покажем спиннер (иконка лоадера)
     
     // формируем массив передаваемых данных
     var gasData = {

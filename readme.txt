@@ -1,4 +1,4 @@
-== Установка/Обновление: ==
+== Установка/Обновление ==
 
 <h3 style="text-align: center;">Установка:</h3>
 Т.к. это дополнение для WordPress плагина <a href="https://codeseller.ru/groups/plagin-wp-recall-lichnyj-kabinet-na-wordpress/" target="_blank">WP-Recall</a>, то оно устанавливается через <a href="https://codeseller.ru/obshhie-svedeniya-o-dopolneniyax-wp-recall/" target="_blank"><strong>менеджер дополнений WP-Recall</strong></a>.
@@ -14,8 +14,8 @@
 
 
 
-== FAQ: ==   
-= Есть настройки? = 
+== FAQ ==
+= Есть настройки? =
 - Настроек нет. Если что-то вам нужно поменять - придется править файлы дополнения.
 
 = Что будет если я удалю дополнение? = 
@@ -23,19 +23,27 @@
 - Если вы просто по FTP удалите дополнение, то его данные в бд останутся.
 
 
+p.s. данное дополнение писалось к моему руководству: <a href="https://codeseller.ru/post-group/sozdayom-dopolnenie-dlya-plagina-wp-recall-struktura-dopolnenij-podklyuchaem-skripty-i-stili-ajax/" target="_blank">Создаём дополнение для плагина WP-Recall. Структура дополнений. Подключаем скрипты и стили. Ajax</a>
 
 
-== Changelog ==   
-= 2017-04-01 = 
+
+
+== Changelog ==
+= 2017-04-01 =
+v1.0.1
+* Передаю объект в лоадер
+
+
+= 2017-04-01 =
 v1.0    
 * Release 
 
 
 
-== Поддержка/Контакты ==  
+== Поддержка/Контакты ==
 
 * Поддержка осуществляется в рамках текущего функционала дополнения
-* При возникновении проблемы, создайте соотвествующую тему на форуме поддержки товара
+* При возникновении проблемы, создайте соотвествующую тему на <a href="https://codeseller.ru/forum/product-14741/" target="_blank">форуме поддержки товара</a>
 * Если вам нужна доработка под ваши нужды - вы можете обратиться ко мне в <a href="https://codeseller.ru/author/otshelnik-fm/?tab=chat" target="_blank">ЛС</a> с техзаданием на платную доработку.
 
 Полный список моих работ опубликован <a href="http://across-ocean.otshelnik-fm.ru/" target="_blank">на моем демо-сайте</a> и в каталоге магазина <a href="https://codeseller.ru/author/otshelnik-fm/?tab=publics&subtab=type-products" target="_blank">CodeSeller.ru</a>

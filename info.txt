@@ -1,5 +1,5 @@
 Name: Give a Smile;
-Version: 1.0;
+Version: 1.0.1;
 Support Core: 15.9.7;
 Description: Просто подари улыбку;
 Author: Владимир Дружаев (Otshelnik-Fm);
